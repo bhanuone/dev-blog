@@ -23,7 +23,16 @@ gems:
 - jemoji
 - jekyll-redirect-from
 - jekyll-sitemap
-- jekyll-utf8
+- sass
+- jekyll-sass
+- jekyll-press
+- jekyll-paginate
+- jekyll-sass-converter
+- jgd
+- nokogiri
+- kramdown
+- liquid
+- nuggets
 
 exclude: ['Gemfile', 'Gemfile.lock', 'README.md']
 
