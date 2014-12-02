@@ -1,0 +1,20 @@
+language: ruby
+rvm:
+  - "2.1.1"
+branches:
+  only:
+  - master
+install:
+- travis_retry bundle install
+- travis_retry npm install --global cssshrink
+
+script:
+- set -e
+- jekyll build
+# - _test/w3c_validate.sh
+# - _test/test_excerps.sh
+- _test/test_pages_existence.sh
+# - for i in $(ls js/*.js); do jslint $i; done
+- git config --global user.email "bhanu.dev0@gmail.com"
+- git config --global user.name "bhanuone"
+- jgd -u http://bhanuone:$PASSWORD@github.com/bhanuone/dev-blog.git
