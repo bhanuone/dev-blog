@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'jekyll', '2.4.0'
-gem 'sass', '3.4.5'
-gem 'jekyll-sass', '1.2.2'
+gem 'sass'
+gem 'jekyll-sass'
 # gem 'jekyll-plantuml'
 gem 'jekyll-press'
 gem 'jekyll-paginate'
