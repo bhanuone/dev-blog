@@ -15,7 +15,6 @@ before_install:
 
 script:
 - set -e
-- jekyll build
 # - _test/w3c_validate.sh
 # - _test/test_excerps.sh
 # - _test/test_pages_existence.sh
