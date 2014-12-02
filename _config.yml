@@ -37,8 +37,6 @@ rss_post_limit: 15
 # see https://github.com/noct/jekyll-sass
 sass:
   style: compressed
-  deploy_style: compressed
-  compile_in_place: false
 
 # see https://github.com/stereobooster/jekyll-press
 # jekyll-press:
