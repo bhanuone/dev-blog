@@ -23,8 +23,6 @@ gems:
 
 
 
-exclude: ['Gemfile', 'Gemfile.lock', 'README.md']
-
 google_analytics: UA-57016542-3
 disqus: bhanuonegithubio
 
@@ -34,9 +32,10 @@ baseurl: /dev-blog
 
 # see https://github.com/noct/jekyll-sass
 sass:
-  style: :compressed
+  style: compressed
+  compile_in_place: false
 
-exclude: ['id_rsa', 'id_rsa.enc', '.travis.yml', '.gitignore', '.gitattributes']
+exclude: ['Gemfile', 'Gemfile.lock', 'README.md', 'id_rsa', 'id_rsa.enc', '.travis.yml', '.gitignore', '.gitattributes']
 
 # see https://github.com/stereobooster/jekyll-press
 # jekyll-press:
