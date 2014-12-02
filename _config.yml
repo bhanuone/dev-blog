@@ -34,7 +34,7 @@ baseurl: /dev-blog
 
 # see https://github.com/noct/jekyll-sass
 sass:
-  style: compressed
+  style: :compressed
 
 exclude: ['id_rsa', 'id_rsa.enc', '.travis.yml', '.gitignore', '.gitattributes']
 
