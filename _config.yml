@@ -28,7 +28,6 @@ gems:
 - jekyll-press
 - jekyll-paginate
 - jekyll-sass-converter
-- jgd
 - nokogiri
 - kramdown
 - liquid
