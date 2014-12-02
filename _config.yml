@@ -19,19 +19,12 @@ excerpt_separator: <!--more-->
 #   - jekyll-plantuml
 #   - jekyll-press
 gems:
-- jekyll-mentions
-- jemoji
-- jekyll-redirect-from
-- jekyll-sitemap
-- sass
-- jekyll-sass
-- jekyll-press
-- jekyll-paginate
-- jekyll-sass-converter
-- nokogiri
-- kramdown
-- liquid
-- nuggets
+  - jekyll-mentions
+  - jemoji
+  - jekyll-redirect-from
+  - jekyll-sitemap
+
+
 
 exclude: ['Gemfile', 'Gemfile.lock', 'README.md']
 

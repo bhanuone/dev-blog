@@ -6,7 +6,7 @@ branches:
   - master
 install:
 - travis_retry bundle install
-- travis_retry npm install --global cssshrink
+# - travis_retry npm install --global cssshrink
 
 before_install:
 - set -e
