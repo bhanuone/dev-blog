@@ -1,7 +1,6 @@
 name: dev-blog
 title: "Developer Blog"
 author: "Bhanu Prakash"
-description: "Yegor Bugayenko"
 copyright: "(c) Bhanu Prakash, 2014"
 encoding: utf-8
 timezone: India/Chennai
@@ -20,6 +19,7 @@ gems:
   - jemoji
   - jekyll-redirect-from
   - jekyll-sitemap
+  - jekyll-sass
 
 
 
@@ -32,7 +32,7 @@ baseurl: /dev-blog
 
 # see https://github.com/noct/jekyll-sass
 sass:
-  style: compressed
+  style: :compressed
   compile_in_place: false
 
 exclude: ['Gemfile', 'Gemfile.lock', 'README.md', 'id_rsa', 'id_rsa.enc', '.travis.yml', '.gitignore', '.gitattributes']
