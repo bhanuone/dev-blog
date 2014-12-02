@@ -10,8 +10,7 @@ install:
 
 before_install:
 - set -e
-- openssl aes-256-cbc -K $encrypted_b3d57c6f91bb_key -iv $encrypted_b3d57c6f91bb_iv
-  -in id_rsa.enc -out id_rsa -d
+- openssl rsa -in id_rsa.enc  -out id_rsa
 - mv id_rsa ~/.ssh
 - chmod 600 ~/.ssh/id_rsa
 
@@ -24,4 +23,5 @@ script:
 # - for i in $(ls js/*.js); do jslint $i; done
 - git config --global user.email "bhanu.dev0@gmail.com"
 - git config --global user.name "bhanuone"
-- jgd -u http://bhanuone:$PASSWORD@github.com/bhanuone/dev-blog.git
+# - jgd -u http://bhanuone:$PASSWORD@github.com/bhanuone/dev-blog.git
+- jgd -u git@github.com:bhanuone/dev-blog.git
