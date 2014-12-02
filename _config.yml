@@ -7,12 +7,9 @@ encoding: utf-8
 timezone: India/Chennai
 markdown: kramdown
 highlighter: pygments
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+
 permalink: :year/:month/:day/:title.html
-paginate: 10
-paginate_path: "p/:num"
-excerpt_separator: <!--more-->
+
 
 # gems:
 #   - jekyll-sass
@@ -33,7 +30,7 @@ disqus: bhanuonegithubio
 
 # https://github.com/agelber/jekyll-rss
 baseurl: /dev-blog
-rss_post_limit: 15
+
 
 # see https://github.com/noct/jekyll-sass
 sass:
@@ -50,12 +47,4 @@ exclude: ['id_rsa', 'id_rsa.enc', '.travis.yml', '.gitignore', '.gitattributes']
 # tag_page_dir: tag
 
 # see https://github.com/kinnetica/jekyll-plugins
-sitemap:
-  file: "/sitemap.xml"
-  exclude:
-    - "/rss.xml"
-    - "/rss-jcg.xml"
-  include_posts:
-    - "/index.html"
-  change_frequency_name: "change_frequence"
-  priority_name: "priority"
+
