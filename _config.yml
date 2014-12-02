@@ -38,6 +38,8 @@ rss_post_limit: 15
 sass:
   style: compressed
 
+exclude: ['id_rsa', 'id_rsa.enc', '.travis.yml', '.gitignore', '.gitattributes']
+
 # see https://github.com/stereobooster/jekyll-press
 # jekyll-press:
 #   exclude: ['/rss.xml', '/rss-jcg.xml']
