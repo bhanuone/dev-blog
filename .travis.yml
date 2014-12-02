@@ -10,7 +10,6 @@ install:
 
 before_install:
 - set -e
-- openssl rsa -in id_rsa.enc  -out id_rsa
 - mv id_rsa ~/.ssh
 - chmod 600 ~/.ssh/id_rsa
 
