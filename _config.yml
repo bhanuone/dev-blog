@@ -35,7 +35,41 @@ sass:
   style: :compressed
   compile_in_place: false
 
-exclude: ['Gemfile', 'Gemfile.lock', 'README.md', 'id_rsa', 'id_rsa.enc', '.travis.yml', '.gitignore', '.gitattributes']
+exclude: ['Gemfile', 'Gemfile.lock', 'id_rsa', 'id_rsa.enc', '.travis.yml', '.gitignore', '.gitattributes']
+
+#prose configuration
+prose:
+	root_url: '_posts'
+	ignore: ['id_rsa', '_config.yml', 'Gemfile', 'Gemfile.lock', '.travis.yml']
+	siteurl: "http://bhanuone.github.io/bhanuone/"
+	media: "assets/images"
+	metadata:
+		_posts:
+			- name: "layout"
+		    field:
+		      element: "hidden"
+		      value: "default"
+		  - name: "category"
+		  	field:
+		  		element: "select"
+		  		label: "Category"
+		  		help: "select a category for this post"
+		  		options:
+		  			- name: 'Test Category 1'
+		  				value: 'test-category-1'
+		  			- name: 'Test Category 2'
+		  				value: 'test-category-2'
+		  		placeholder: 'Select Category'
+		  - name: "published"
+		  	field:
+		  		element: "button"
+		  		label: "Publish"
+		  		on: 'true'
+		  		off: 'false'
+		  - name: "title"
+      	field:
+        	element: "text"
+        	label: "title"
 
 # see https://github.com/stereobooster/jekyll-press
 # jekyll-press:

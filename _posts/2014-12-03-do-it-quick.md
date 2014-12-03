@@ -1,5 +1,7 @@
 ---
-published: false
+title: Second Post
+layout: post
+tags: test first
 ---
 
 ## A New Post
