@@ -70,8 +70,8 @@ prose:
         field:
           element: "button"
           label: "Published"
-          on: true
-          off: false
+          on: 'true'
+          off: 'false'
       - name: "title"
         field:
           element: "text"
