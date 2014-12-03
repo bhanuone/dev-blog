@@ -2,7 +2,8 @@
 title: Test Post
 layout: post
 tags: test first
-test_attr: abc
+category:
+published: true
 ---
 
 This is a **test** post. working out on a **_custom layout_**.  

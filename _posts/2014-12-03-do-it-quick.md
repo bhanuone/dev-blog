@@ -2,6 +2,8 @@
 title: Second Post
 layout: post
 tags: test first
+category:
+published: true
 ---
 
 ## A New Post
