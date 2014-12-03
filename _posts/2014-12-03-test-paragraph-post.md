@@ -1,9 +1,9 @@
 ---
 layout: post
-published: false
-title: "test-paragraph-post"
-author: Anonymous
-category: "test-category-1"
+published: true
+title: test-paragraph-post
+author: bhanu
+category: test-category-1
 ---
 
 ## A post about paragraph  
