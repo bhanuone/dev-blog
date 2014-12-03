@@ -68,10 +68,9 @@ prose:
           placeholder: 'Select Category'
       - name: "published"
         field:
-          element: "button"
+          element: "checkbox"
           label: "Published"
-          on: 'true'
-          off: 'false'
+          value: false
       - name: "title"
         field:
           element: "text"
