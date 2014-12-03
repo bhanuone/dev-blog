@@ -39,8 +39,8 @@ exclude: ['Gemfile', 'Gemfile.lock', 'id_rsa', 'id_rsa.enc', '.travis.yml', '.gi
 
 #prose configuration
 prose:
-  root_url: '_posts'
-  ignore: ['_config.yml', 'Gemfile', 'Gemfile.lock', '.travis.yml']
+  rooturl: '_posts'
+  ignore: ['_config.yml', 'Gemfile', 'Gemfile.lock', '.travis.yml', 'id_rsa.enc'.]
   siteurl: "http://bhanuone.github.io/dev-blog/"
   media: "assets/images"
   metadata:
@@ -49,6 +49,12 @@ prose:
         field:
           element: "hidden"
           value: "post"
+      - name: "author"
+        field:
+          element: "text"
+          value: "Anonymous"
+          label: "Author name:"
+          type: text
       - name: "category"
         field:
           element: "select"
@@ -70,6 +76,15 @@ prose:
           element: "text"
           label: "Title"
           placeholder: "Enter a title"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          options:
+            - name: "A tag"
+              value: "tag-a"
+            - name: "B tag"
+              value: "tag-b"
+          alterable: true
 
 # see https://github.com/stereobooster/jekyll-press
 # jekyll-press:
