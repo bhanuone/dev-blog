@@ -38,53 +38,53 @@ sass:
 exclude: ['Gemfile', 'Gemfile.lock', 'id_rsa', 'id_rsa.enc', '.travis.yml', '.gitignore', '.gitattributes']
 
 #prose configuration
-# prose:
-#   rooturl: '_posts'
-#   ignore: ['_config.yml', 'Gemfile', 'Gemfile.lock', '.travis.yml', 'id_rsa.enc']
-#   siteurl: "http://bhanuone.github.io/dev-blog/"
-#   media: "assets/images"
-#   metadata:
-#     _posts:
-#       - name: "layout"
-#         field:
-#           element: "hidden"
-#           value: "post"
-#       - name: "author"
-#         field:
-#           element: "text"
-#           value: "Anonymous"
-#           label: "Author name:"
-#           type: text
-#       - name: "category"
-#         field:
-#           element: "select"
-#           label: "Category"
-#           help: "select a category for this post"
-#           options:
-#             - name: 'Test Category 1'
-#               value: 'test-category-1'
-#             - name: 'Test Category 2'
-#               value: 'test-category-2'
-#           placeholder: 'Select Category'
-#       - name: "published"
-#         field:
-#           element: "checkbox"
-#           label: "Published"
-#           value: false
-#       - name: "title"
-#         field:
-#           element: "text"
-#           label: "Title"
-#           placeholder: "Enter a title"
-#       - name: "tags"
-#         field:
-#           element: "multiselect"
-#           options:
-#             - name: "A tag"
-#               value: "tag-a"
-#             - name: "B tag"
-#               value: "tag-b"
-#           alterable: true
+prose:
+  rooturl: 'source/_posts/'
+  ignore: ['_config.yml', 'Gemfile', 'Gemfile.lock', '.travis.yml', 'id_rsa.enc']
+  siteurl: "http://bhanuone.github.io/dev-blog/"
+  media: "assets/images"
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "author"
+        field:
+          element: "text"
+          value: "Anonymous"
+          label: "Author name:"
+          type: text
+      - name: "category"
+        field:
+          element: "select"
+          label: "Category"
+          help: "select a category for this post"
+          options:
+            - name: 'Test Category 1'
+              value: 'test-category-1'
+            - name: 'Test Category 2'
+              value: 'test-category-2'
+          placeholder: 'Select Category'
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published"
+          value: false
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          placeholder: "Enter a title"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          options:
+            - name: "A tag"
+              value: "tag-a"
+            - name: "B tag"
+              value: "tag-b"
+          alterable: true
 
 # see https://github.com/stereobooster/jekyll-press
 # jekyll-press:
