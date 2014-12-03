@@ -52,7 +52,7 @@ prose:
       - name: "author"
         field:
           element: "text"
-          value: "Anonymous"
+          value: ""
           label: "Author name:"
           type: text
       - name: "category"
