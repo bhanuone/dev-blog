@@ -39,7 +39,7 @@ exclude: ['Gemfile', 'Gemfile.lock', 'id_rsa', 'id_rsa.enc', '.travis.yml', '.gi
 
 #prose configuration
 prose:
-  rooturl: 'source/_posts/'
+  rooturl: 'source/_posts'
   ignore: ['_config.yml', 'Gemfile', 'Gemfile.lock', '.travis.yml', 'id_rsa.enc']
   siteurl: "http://bhanuone.github.io/dev-blog/"
   media: "assets/images"
